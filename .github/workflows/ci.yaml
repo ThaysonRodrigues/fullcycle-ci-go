@@ -2,7 +2,7 @@ name: ci-golang-workfow
 on: [push]
 jobs:
   check-application:
-    runs-on: ububtu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: action/checkout@v2
       - uses: action/setup-go@v2
